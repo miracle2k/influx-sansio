@@ -1,7 +1,7 @@
 influx-sansio
 =============
 
-Python client for InfluxDB following the |SansIO|_ principle.
+Python client for InfluxDB following the `SansIO`_ principle.
 
 InfluxDB is an open-source distributed time series database. Find more
 about InfluxDB at http://influxdata.com/
@@ -34,9 +34,10 @@ There is one optional third-party library dependency:
 
 For the concrete IO implementations, there are aditional dependencies.
 
-.. _SansIO: https://sans-io.readthedocs.io/
 .. |pandas| replace:: ``pandas``
 .. _pandas: https://github.com/pandas-dev/pandas
+.. _`SansIO`: https://sans-io.readthedocs.io/
+
 
 
 Usage
