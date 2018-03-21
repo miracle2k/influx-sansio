@@ -447,3 +447,8 @@ used in order to provide convenient access to commonly used query
 patterns. See the `Query patterns <#query-patterns>`__
 section for details.
 
+
+Credits
+-------
+
+Forked from `aioinflux <https://github.com/plugaai/aioinflux>`_.
