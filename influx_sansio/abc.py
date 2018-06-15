@@ -105,7 +105,7 @@ class InfluxDBClient(abc.ABC):
         url = self._url.format(endpoint='write') + '?' + urlencode(dict(db=self.db))
 
         status, headers, data = await self._request('POST', url, data=data)
-        if resp.status == 204:
+        if status == 204:
             return True
         else:
             msg = (f'Error writing data ({status}): '
