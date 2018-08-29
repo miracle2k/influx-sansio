@@ -6,7 +6,7 @@ with open('README.rst', 'r') as f:
 
 
 setup(name='influx-sansio',
-      version='0.1.0',
+      version='0.1.1',
       description='SansIO Python client for InfluxDB',
       long_description=long_description,
       author='Michael Elsdorfer',
